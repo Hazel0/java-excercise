@@ -25,5 +25,31 @@ public class countBottles {
 }
 ```
 
+2.  String变量相关问题
+
+```java
+String s1 = "s1";
+String s2 = s1;
+System.out.printf(s1+"%n");		//s1
+System.out.printf(s2+"%n");		//s1
+System.out.println(s1 == s2);	//true
+String s2 = "s1";
+System.out.printf(s1+"%n");		//s1
+System.out.printf(s2+"%n");		//s1
+System.out.println(s1 == s2);	//true
+s2 = "s2";
+System.out.printf(s1+"%n");		//s1
+System.out.printf(s2+"%n");		//s2
+System.out.println(s1 == s2);	//false
+```
+
+如上：定义s1后，会在常量池中查找是否有对“s1”对象的引用，没有就会将创建对象，并将对象的引用放在常量池中，再将此引用返回给s1，
+     s2 = "s1"时，同样会在会在常量池中查找是否有对“s1”对象的引用，于是直接将此引用返回给s2，
+     s2 = "s2"时，会在常量池中查找是否有对“s1”对象的引用，没有就会将创建对象，并将对象的引用放在常量池中，再将此引用返回给s2，而不是去修改引用的对象的数据
+     
+     
+     参考文章：https://my.oschina.net/xiaohui249/blog/170013
+       
+            https://blog.csdn.net/uyninger/article/details/77621183
 
 
