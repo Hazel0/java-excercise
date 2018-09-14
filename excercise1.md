@@ -58,9 +58,7 @@ String s8 = "ja";
 ```
 
  参考文章：https://my.oschina.net/xiaohui249/blog/170013
-       
             https://blog.csdn.net/uyninger/article/details/77621183
-	    
 	    https://www.cnblogs.com/luankun0214/p/4433720.html
 
 
@@ -69,5 +67,4 @@ String s8 = "ja";
 	 而非内存地址。在Java中是不可能得到对象真正的内存地址的，因为Java中堆是由JVM管理的不能直接操作。 
 	 只能说此时打印出的Hash码表示了该对象在JAVA虚拟机中的内存位置，Java虚拟机会根据该hash码最终在真正的的堆空间中给该对象分配一个地址. 
 	 
-	 参考地址：
-	 https://blog.csdn.net/id19870510/article/details/4877537
+  参考地址：https://blog.csdn.net/id19870510/article/details/4877537
