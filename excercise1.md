@@ -42,38 +42,15 @@ public class countBottles {
 ```java
 String s1 = "s1";
 String s2 = s1;
-System.out.printf(s1+"%n");		//s1
-System.out.printf(s2+"%n");		//s1
 System.out.println(s1 == s2);	//true
+
 String s2 = "s1";
-System.out.printf(s1+"%n");		//s1
-System.out.printf(s2+"%n");		//s1
 System.out.println(s1 == s2);	//true
+
 s2 = "s2";
-System.out.printf(s1+"%n");		//s1
-System.out.printf(s2+"%n");		//s2
 System.out.println(s1 == s2);	//false
 ```
-
-如上：定义s1后，会在常量池中查找是否有对“s1”对象的引用，没有就会将创建对象，并将对象的引用放在常量池中，再将此引用返回给s1，
-     s2 = "s1"时，同样会在会在常量池中查找是否有对“s1”对象的引用，于是直接将此引用返回给s2，
-     s2 = "s2"时，会在常量池中查找是否有对“s1”对象的引用，没有就会将创建对象，并将对象的引用放在常量池中，再将此引用返回给s2，而不是去修改引用的对象的数据
-     
-
-```java
-String s8 = "ja";
-		String s9 = "va";
-		String s10 = "java";
-		String s11 = s8 + s9;
-		System.out.println(s10 == s11);		//false  ???
-		System.out.println(s10 == s12);         //true
-```
-
- 参考文章：https://my.oschina.net/xiaohui249/blog/170013
-          
-https://blog.csdn.net/uyninger/article/details/77621183
-	   
-https://www.cnblogs.com/luankun0214/p/4433720.html
+我的理解：在java中String是一个对象类型，因此使用String创建一个对象时，如：String s1 = "s1"， jvm会在堆内存中查找是否有数据为“s1”的对象，没有则创建对象，并把对象的引用经过哈希计算将其交给s1保存，当初创建String s2 = s1时，也是将s1中保存的对象引用给s2copy了一份，当s2 = "s2"，并不是将s2引用的对象修改，而是jvm又在内存中查看有没有这样的对象，结果没有于是重新创建一个对象，并将对象的引用交给s2.
 
 
 ## 3.如何获取变量的内存地址
