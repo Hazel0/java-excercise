@@ -1,3 +1,3 @@
-1、 [汽车类](https://github.com/dengmengqiu/learning.gitbio/tree/master/java_lesson/lesson2)
+﻿1、 [汽车类](https://github.com/Hazel0/java-excercise/blob/master/javaLesson/src/lesson2/vehicle.java)
 
-2、 [猜数游戏](https://github.com/dengmengqiu/learning.gitbio/tree/master/java_lesson/numberGuess)
+2、 [猜数游戏](https://github.com/Hazel0/java-excercise/tree/master/javaLesson/src/numberGuess)
