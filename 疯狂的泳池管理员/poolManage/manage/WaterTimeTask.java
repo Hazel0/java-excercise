@@ -21,8 +21,12 @@ public class WaterTimeTask extends TimerTask {
         InputThread thread1 = new InputThread(queue);
         OutputThread thread2 = new OutputThread(queue);
         List<Callable<Object>> threadList = new ArrayList<>(2);
+        
+        int threadSize = threadList.size();
+        
         threadList.add(thread1);
         threadList.add(thread2);
+        
         List<Object> returnValue = null;
         try {
             returnValue = ThreadUntil.runCheckCallable(threadList,true);
@@ -32,7 +36,8 @@ public class WaterTimeTask extends TimerTask {
             e.printStackTrace();
         }
         System.out.println("泳池已经注满");
-        System.out.println(returnValue.get(0));
-        System.out.println(returnValue.get(1));
+        for(int i = 0; i < threadSize; i++) {
+        	System.out.println(returnValue.get(i));
+        }
     }
 }
