@@ -18,4 +18,4 @@
 [比较查找速度]("excercise4.md")
 
 第五次作业
-[员工工资信息登记管理  使用EXCEL表]（）
+[员工工资信息登记管理  使用EXCEL表]（https://github.com/Hazel0/java-excercise/blob/master/excercise3.md）
