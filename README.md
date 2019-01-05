@@ -16,7 +16,8 @@
 
 第四次作业
 
-[点歌管理](Lesson3/src)
+[点歌管理](Lesson3/src):程序里面还需要加个锁
+
 [比较查找速度](https://github.com/Hazel0/java-excercise/blob/master/excercise4.md)
 
 第五次作业
