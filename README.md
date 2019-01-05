@@ -24,3 +24,4 @@
 
 [初次多线程作业 把程序调通](https://github.com/Hazel0/java-excercise/tree/master/Threads/src/com/captain/demo/threadNoSafe)
 
+[疯狂的泳池管理员](https://github.com/Hazel0/java-excercise/tree/master/%E7%96%AF%E7%8B%82%E7%9A%84%E6%B3%B3%E6%B1%A0%E7%AE%A1%E7%90%86%E5%91%98/poolManage/manage)
