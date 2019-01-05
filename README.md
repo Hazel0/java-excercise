@@ -20,3 +20,7 @@
 第五次作业
 
 [员工工资信息登记管理  使用EXCEL表](https://github.com/Hazel0/java-excercise/tree/master/Wage/src/Com)
+
+
+[初次多线程作业 把程序调通](https://github.com/Hazel0/java-excercise/tree/master/Threads/src/com/captain/demo/threadNoSafe)
+
