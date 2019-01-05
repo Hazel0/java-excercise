@@ -10,7 +10,7 @@
 
 第三次作业
 
-[==&equals区别](excercise1.md)
+[==&equals区别](https://github.com/Hazel0/java-excercise/blob/master/excercise3.md)
 
 第四次作业
 
