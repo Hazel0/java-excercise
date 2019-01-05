@@ -15,7 +15,7 @@
 第四次作业
 
 [点歌管理](Lesson3/src)
-[比较查找速度]("excercise4.md")
+[比较查找速度](https://github.com/Hazel0/java-excercise/blob/master/excercise4.md)
 
 第五次作业
 
