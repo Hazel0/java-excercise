@@ -8,6 +8,8 @@
 
 [汽车类&猜数字游戏](excercise2.md)
 
+[战舰（类似于猜数字游戏）](excercise2.md)
+
 第三次作业
 
 [==&equals区别](https://github.com/Hazel0/java-excercise/blob/master/excercise3.md)
