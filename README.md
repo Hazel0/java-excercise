@@ -19,4 +19,4 @@
 
 第五次作业
 
-[员工工资信息登记管理  使用EXCEL表](https://github.com/Hazel0/java-excercise/tree/master/Wage/src/Com）
+[员工工资信息登记管理  使用EXCEL表](https://github.com/Hazel0/java-excercise/tree/master/Wage/src/Com)
