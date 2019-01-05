@@ -8,7 +8,7 @@
 
 [汽车类&猜数字游戏](excercise2.md)
 
-[战舰（类似于猜数字游戏） 文件夹中的base和。。](https://github.com/Hazel0/java-excercise/tree/master/javaLesson/src)
+[战舰（类似于猜数字游戏） 文件夹中的base和Complex](https://github.com/Hazel0/java-excercise/tree/master/javaLesson/src)
 
 第三次作业
 
